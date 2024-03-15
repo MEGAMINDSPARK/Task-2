@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('notes-6399119_1280.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+    font-family: 'Lemonada', cursive !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.to-do-title {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    color: black;
+    font-family: 'Lemonada', cursive !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#completed-tasks span {
+    text-decoration: double;
+    font-size: 1.2em !important;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #363434;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: right;
+    padding: 14px 16px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #0b7dda;
+}
+
+.todo-tasks {
+    background-image: url('note-5913650_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+
+.completed-tasks {
+    background-image: url('vector-empty-paper-stack-white_1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 150%;
+    background-color: transparent;
+    padding: 0;
+    margin: 10;
+    border: none;
+    text-align: center;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #eb0533;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
